@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function StundentForm() {
+function StudentForm() {
   const [user, setUser] = useState({
     email: "",
     password: ""
@@ -53,4 +53,4 @@ function StundentForm() {
   );
 }
 
-export default StundentForm;
+export default StudentForm;

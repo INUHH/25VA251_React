@@ -51,7 +51,7 @@ function RegistrationForm() {
             onChange={handleChange}
           />
           <br></br>
-          <button type="submit">Regiter Here!</button>
+          <button type="submit">Register Here!</button>
         </form>
       </div>
     </>

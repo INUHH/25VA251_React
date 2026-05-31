@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function RegistrationForm() {
+function RegForm() {
   const [data, setData] = useState({ name: "", email: "", password: "" });
 
   const handleChange = (e) => {
@@ -54,8 +54,8 @@ function RegistrationForm() {
           <button type="submit">Register Here!</button>
         </form>
       </div>
-    </>
+  </>
   );
 }
 
-export default RegistrationForm;
+export default RegForm;
